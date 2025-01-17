@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "МаксФокус",
+    "version": "1.0.0",
+    "description": "Максимальная продуктивность с таймером и блокировкой отвлекающих ресурсов - Создано Browserx.ru",
+    "permissions": [
+      "storage",
+      "alarms",
+      "notifications",
+      "webNavigation",
+      "contextMenus",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "96": "icon96.png"
+      }
+    },
+    "icons": {
+      "96": "icon96.png"
+    }
+  }

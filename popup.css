@@ -1,0 +1,262 @@
+body {
+  width: 400px;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #1a73e8, #1557b0);
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(26, 115, 232, 0.1);
+}
+
+.header h1 {
+  font-size: 28px;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.header p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.timer {
+  font-size: 48px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.work-stats {
+  background-color: #f0f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.work-stats h3 {
+  margin: 0 0 10px;
+  color: #4285f4;
+  font-size: 16px;
+}
+
+.settings {
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.setting-item {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-item label {
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.setting-item input {
+  width: 60px;
+  padding: 8px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+#startWork {
+  background-color: #4285f4;
+  color: white;
+}
+
+#startWork:hover {
+  background-color: #3b78e7;
+}
+
+#pauseTimer {
+  background-color: #fbbc04;
+  color: white;
+}
+
+#pauseTimer:hover {
+  background-color: #f2b600;
+}
+
+#finishWork {
+  background-color: #ea4335;
+  color: white;
+}
+
+#finishWork:hover {
+  background-color: #d93025;
+}
+
+.sites-list {
+  text-align: left;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sites-list h3 {
+  margin: 0 0 10px;
+  color: #202124;
+  font-size: 16px;
+}
+
+#sitesList {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.site-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.remove-site {
+  color: #ea4335;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 4px 8px;
+  border-radius: 50%;
+}
+
+.remove-site:hover {
+  background-color: rgba(234, 67, 53, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #5f6368;
+  font-size: 13px;
+  border-top: 1px solid #e8eaed;
+}
+
+.footer a {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #1557b0;
+  text-decoration: underline;
+}
+.stats {
+  margin-bottom: 24px;
+}
+
+.rating-section {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.rating-text {
+  color: #5f6368;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.star {
+  color: #dadce0;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: #fbbc04;
+}
+
+.stars:hover .star {
+  color: #fbbc04;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #5f6368;
+  font-size: 13px;
+  border-top: 1px solid #e8eaed;
+}
+
+
+.headert {
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #1a73e8, #1557b0);
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(26, 115, 232, 0.1);
+}
+
+.headert h1 {
+  font-size: 28px;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.headert p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  opacity: 0.9;
+}

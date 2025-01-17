@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>МаксФокус</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>МаксФокус</h1>
+      <p>Максимальная продуктивность с таймером и блокировкой отвлекающих ресурсов.</p>
+    </div>
+
+    <div class="work-stats">
+      <h3>Время работы сегодня</h3>
+      <div id="totalWorkTime">0 часов 0 минут</div>
+    </div>
+
+    <div id="timer" class="timer">25:00</div>
+
+    <div class="settings">
+      <div class="setting-item">
+        <label for="workTime">Рабочее время (минуты):</label>
+        <input type="number" id="workTime" min="1" max="120" value="25">
+      </div>
+      <div class="setting-item">
+        <label for="breakTime">Время перерыва (минуты):</label>
+        <input type="number" id="breakTime" min="1" max="60" value="5">
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="startWork" class="btn">Начать работу</button>
+      <button id="pauseTimer" class="btn">Пауза</button>
+      <button id="finishWork" class="btn">Завершить работу</button>
+    </div>
+
+    <div class="sites-list">
+      <h3>Заблокированные сайты:</h3>
+      <div id="sitesList"></div>
+    </div>
+
+    <div class="rating-section">
+      <div class="rating-text">Оцените нас в Chrome Web Store</div>
+      <div class="stars">
+        <span class="star" data-rating="1">★</span>
+        <span class="star" data-rating="2">★</span>
+        <span class="star" data-rating="3">★</span>
+        <span class="star" data-rating="4">★</span>
+        <span class="star" data-rating="5">★</span>
+      </div>
+    </div>
+    <div class="footer">
+      Все права защищены, 2025 - <a href="https://browserx.ru/?ref=MaxFocus" target="_blank">BrowserX</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
