@@ -41,7 +41,7 @@ function getTotalWorkTime() {
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: 'toggleSite',
-    title: 'Toggle site in blocking list',
+    title: 'МаксФокус  - Добавить сайт в черный список',
     contexts: ['page']
   });
 
