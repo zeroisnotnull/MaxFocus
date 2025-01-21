@@ -5,7 +5,6 @@
     "description": "Максимальная продуктивность с таймером и блокировкой отвлекающих ресурсов - Создано Browserx.ru",
     "permissions": [
       "storage",
-      "alarms",
       "notifications",
       "webNavigation",
       "contextMenus",
